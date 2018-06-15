@@ -31,10 +31,11 @@ app.get('/', (req, res) => {
 
 app.get('/eliminar/:id', (req, res) => {
     console.log(req.params.id);
+    var id = req.params.id;
     var params = {
         TableName: 'Supervisors',
         Key: {
-            'name': { s: req.params.id },
+            'name': { id },
         }
     };
 
@@ -49,8 +50,6 @@ app.get('/eliminar/:id', (req, res) => {
     console.log('deleted');
     res.redirect('/')
 });
-
-
 
 app.post('/quotes', (req, res) => {
     var params = {
