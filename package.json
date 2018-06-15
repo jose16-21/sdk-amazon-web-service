@@ -4,11 +4,18 @@
     "description": "descripcion",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js"
     },
     "author": "Juan Jose Hernandez",
     "license": "ISC",
     "dependencies": {
-        "aws-sdk": "^2.257.1"
+        "aws-sdk": "^2.257.1",
+        "body-parser": "^1.18.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5"
     }
 }
