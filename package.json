@@ -9,9 +9,6 @@
     "author": "Juan Jose Hernandez",
     "license": "ISC",
     "dependencies": {
-        "aws-sdk": "^2.257.1",
-        "express": "^4.16.3",
-        "mongo": "",
-        "uuid": "^3.2.1"
+        "aws-sdk": "^2.257.1"
     }
 }
