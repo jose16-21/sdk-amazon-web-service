@@ -1,9 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const aws = require('aws-sdk');
+
 const app = express()
 
 aws.config.loadFromPath('./config.json');
+
 const dynamodb = new aws.DynamoDB();
 const unmarshalItem = require('dynamodb-marshaler').unmarshalItem;
 
@@ -12,6 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.listen(3000, function() {
     console.log('listening on 3000')
 })
+
 
 app.get('/', (req, res) => {
     var result = [];
