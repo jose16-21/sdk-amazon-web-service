@@ -10,13 +10,13 @@
     "author": "Juan Jose Hernandez",
     "license": "ISC",
     "dependencies": {
-        "aws-sdk": "^2.257.1",
+        "aws-sdk": "^2.358.0",
         "body-parser": "^1.18.3",
         "dynamodb-marshaler": "^2.0.0",
         "ejs": "^2.6.1",
-        "express": "^4.16.3"
+        "express": "^4.16.4"
     },
     "devDependencies": {
-        "nodemon": "^1.17.5"
+        "nodemon": "^1.18.6"
     }
 }
