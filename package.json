@@ -10,7 +10,7 @@
     "author": "Juan Jose Hernandez",
     "license": "ISC",
     "dependencies": {
-        "aws-sdk": "^2.358.0",
+        "aws-sdk": "^2.362.0",
         "body-parser": "^1.18.3",
         "dynamodb-marshaler": "^2.0.0",
         "ejs": "^2.6.1",
