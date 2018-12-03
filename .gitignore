@@ -2,3 +2,4 @@ config.json
 DynamoDB/config.json
 Polly/config.json
 node_modules/
+.DS_Store
